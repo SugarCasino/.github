@@ -1,7 +1,8 @@
 # Sugar Casino
 
-Developer tools for [Sugar Casino](https://sugar.win).
+Developer tools for Sugar Casino.
 
-- [TypeScript SDKs and MCP](https://github.com/SugarCasino/ts-sdks)
 - [Agent skills](https://github.com/SugarCasino/agent-skills)
-- [Suifrens display system](https://github.com/SugarCasino/suifrens-display-system)
+- [Sui smart-contract sources](https://github.com/SugarCasino/contracts)
+- TypeScript SDKs and MCP (in preparation)
+- Suifrens display system (in preparation)
