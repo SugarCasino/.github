@@ -3,8 +3,8 @@ on:
   pull_request:
     types: [opened, synchronize, reopened, edited]
   push:
-    branches: ["**"]
-    tags: ["**"]
+    branches: ['**']
+    tags: ['**']
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,12 +19,16 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - name: Setup Node.js
-        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
+      - name: Setup pnpm
+        uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
         with:
+          cache: true
+          require-lockfile: true
           node-version-file: .node-version
+      - name: Lint and check formatting
+        run: pnpm run lint
       - name: Test publication identity guard
-        run: node --test scripts/validate-git-identities.test.mjs scripts/fetch-git-event-objects.test.mjs
+        run: pnpm run test
       - name: Check incoming commits and squash metadata
         env:
           GITHUB_TOKEN: ${{ github.token }}
