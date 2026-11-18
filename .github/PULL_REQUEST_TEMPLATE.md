@@ -4,4 +4,4 @@ Closes #
 
 ## Describe your changes
 
-*Clearly and concisely describe what's in this pull request. Include screenshots, if necessary.*
+_Clearly and concisely describe what's in this pull request. Include screenshots, if necessary._

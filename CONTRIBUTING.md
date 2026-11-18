@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-*Bug reports and feature requests are welcome. Pushes and pull requests to `SugarCasino/.github` are reserved for SugarCasino organization members.* :octocat:
+_Bug reports and feature requests are welcome. Pushes and pull requests to `SugarCasino/.github` are reserved for SugarCasino organization members._ :octocat:
 
 ### Contents
 
@@ -64,7 +64,7 @@ Pushes and pull requests to `SugarCasino/.github` are reserved for organization 
 
 Repository access is managed by the maintainers. Having a pull request merged does not automatically grant push access.
 
-*Note: All contributions will be licensed under the project's license.*
+_Note: All contributions will be licensed under the project's license._
 
 - **Smaller is better.** Submit **one** pull request per bug fix or feature. A pull request should contain isolated changes pertaining to a single bug fix or feature implementation. **Do not** refactor or reformat code that is unrelated to your change. It is better to **submit many small pull requests** rather than a single large one. Enormous pull requests will take enormous amounts of time to review, or may be rejected altogether.
 - **Coordinate bigger changes.** For large and non-trivial changes, open an issue to discuss a strategy with the maintainers. Otherwise, you risk doing a lot of work for nothing!
@@ -94,27 +94,27 @@ Please [write a great commit message](https://cbea.ms/git-commit/).
 1. Do not end the subject line with a period
 1. Use the imperative mood in the subject line (example: "Fix networking issue")
 1. Wrap the body at about 72 characters
-1. Use the body to explain **why**, *not what and how* (the code shows that!)
+1. Use the body to explain **why**, _not what and how_ (the code shows that!)
 1. If applicable, prefix the title with the relevant component name. (examples: "fix(doc): typo", "fix(profile): add missing avatar")
 
 ```
 [TAG] Short summary of changes in 50 chars or less
 
-Add a more detailed explanation here, if necessary. Possibly give 
-some background about the issue being fixed, etc. The body of the 
-commit message can be several paragraphs. Further paragraphs come 
+Add a more detailed explanation here, if necessary. Possibly give
+some background about the issue being fixed, etc. The body of the
+commit message can be several paragraphs. Further paragraphs come
 after blank lines and please do proper word-wrap.
 
-Wrap it to about 72 characters or so. In some contexts, 
-the first line is treated as the subject of the commit and the 
-rest of the text as the body. The blank line separating the summary 
-from the body is critical (unless you omit the body entirely); 
-various tools like `log`, `shortlog` and `rebase` can get confused 
+Wrap it to about 72 characters or so. In some contexts,
+the first line is treated as the subject of the commit and the
+rest of the text as the body. The blank line separating the summary
+from the body is critical (unless you omit the body entirely);
+various tools like `log`, `shortlog` and `rebase` can get confused
 if you run the two together.
 
 Explain the problem that this commit is solving. Focus on why you
-are making this change as opposed to how or what. The code explains 
-how or what. Reviewers and your future self can read the patch, 
+are making this change as opposed to how or what. The code explains
+how or what. Reviewers and your future self can read the patch,
 but might not understand why a particular solution was implemented.
 Are there side effects or other unintuitive consequences of this
 change? Here's the place to explain them.
@@ -147,7 +147,7 @@ When possible, style and format will be enforced with a linter.
 
 ## :medal_sports: Certificate of Origin
 
-*Developer's Certificate of Origin 1.1*
+_Developer's Certificate of Origin 1.1_
 
 By making a contribution to this project, I certify that:
 
@@ -162,11 +162,11 @@ Written by [Sugar Team](https://github.com/SugarCasino).
 
 **Please feel free to adopt this guide in your own projects. Fork it wholesale or remix it for your needs.**
 
-*Many of the ideas and prose for the statements in this document were based on or inspired by work from the following communities:*
+_Many of the ideas and prose for the statements in this document were based on or inspired by work from the following communities:_
 
 - [Alamofire](https://github.com/Alamofire/Alamofire/blob/master/CONTRIBUTING.md)
 - [CocoaPods](https://github.com/CocoaPods/CocoaPods/blob/master/CONTRIBUTING.md)
 - [Docker](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
 - [Linux](https://elinux.org/Developer_Certificate_Of_Origin)
 
-*We commend them for their efforts to facilitate collaboration in their projects.*
+_We commend them for their efforts to facilitate collaboration in their projects._

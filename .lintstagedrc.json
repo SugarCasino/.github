@@ -1,0 +1,4 @@
+{
+	"*.{json,md,yml,yaml}": "oxfmt",
+	"*.{js,mjs,cjs}": ["oxlint --fix", "oxfmt"]
+}

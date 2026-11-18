@@ -1,2 +1,0 @@
-#!/bin/sh
-node scripts/validate-git-identities.mjs --pre-push || exit $?

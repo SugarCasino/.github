@@ -1,0 +1,36 @@
+{
+	"name": "@sugarcasino/github",
+	"private": true,
+	"license": "MIT",
+	"author": "Sugar <contact@sugar.win>",
+	"type": "module",
+	"scripts": {
+		"prepare": "husky",
+		"test": "node --test scripts/*.test.mjs",
+		"oxlint": "oxlint",
+		"oxlint:fix": "oxlint --fix",
+		"oxfmt": "oxfmt --check",
+		"oxfmt:fix": "oxfmt",
+		"lint": "pnpm run oxlint && pnpm run oxfmt",
+		"lint:fix": "pnpm run oxlint:fix && pnpm run oxfmt:fix"
+	},
+	"devDependencies": {
+		"husky": "^9.1.7",
+		"lint-staged": "^17.6.1",
+		"oxfmt": "^0.79.0",
+		"oxlint": "^1.94.0"
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "12.21.0",
+			"onFail": "warn"
+		},
+		"runtime": {
+			"name": "node",
+			"version": "^24.20.0 || ^26.5.0",
+			"onFail": "warn"
+		}
+	},
+	"packageManager": "pnpm@12.21.0"
+}
