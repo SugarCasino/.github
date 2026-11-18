@@ -1,4 +1,4 @@
-<!-- *Have you read the [Contributing Guidelines](https://github.com/sugarcasino/.github/blob/main/CONTRIBUTING.md)?* -->
+<!-- *Have you read the [Contributing Guidelines](https://github.com/SugarCasino/.github/blob/main/CONTRIBUTING.md)?* -->
 
 Closes #
 
