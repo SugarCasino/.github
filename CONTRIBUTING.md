@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-*Pull requests, bug reports, and all other forms of contribution are welcomed and highly encouraged!* :octocat:
+*Bug reports and feature requests are welcome. Pushes and pull requests to `SugarCasino/.github` are reserved for SugarCasino organization members.* :octocat:
 
 ### Contents
 
@@ -48,7 +48,7 @@ In short, since you are most likely a developer, **provide a ticket that you wou
 
 ## :love_letter: Feature Requests
 
-Feature requests are welcome! While we will consider all requests, we cannot guarantee your request will be accepted. We want to avoid [feature creep](https://en.wikipedia.org/wiki/Feature_creep). Your idea may be great, but also out-of-scope for the project. If accepted, we cannot make any commitments regarding the timeline for implementation and release. However, you are welcome to submit a pull request to help!
+Feature requests are welcome! While we will consider all requests, we cannot guarantee your request will be accepted. We want to avoid [feature creep](https://en.wikipedia.org/wiki/Feature_creep). Your idea may be great, but also out-of-scope for the project. If accepted, we cannot make any commitments regarding the timeline for implementation and release. Organization members may submit a pull request to help.
 
 - **Do not open a duplicate feature request.** Search for existing feature requests first. If you find your feature (or one very similar) previously requested, comment on that issue.
 - **Fully complete the provided issue template.** The feature request template asks for all necessary information for us to begin a productive conversation.
@@ -60,7 +60,7 @@ You can triage issues which may include reproducing bug reports or asking for ad
 
 ## :repeat: Submitting Pull Requests
 
-We **love** pull requests! Before [forking the repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) and [creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests) for non-trivial changes, it is usually best to first open an issue to discuss the changes, or discuss your intended approach for solving the problem in the comments for an existing issue.
+Pushes and pull requests to `SugarCasino/.github` are reserved for organization members. External code contributions to this repository are not accepted. Other SugarCasino repositories follow their own contribution policies. For non-trivial changes, members should first open an issue to discuss their approach with the maintainers.
 
 Repository access is managed by the maintainers. Having a pull request merged does not automatically grant push access.
 
@@ -82,7 +82,7 @@ Repository access is managed by the maintainers. Having a pull request merged do
 
 ## Publication identities
 
-External contributors may use their own Git name and email. SugarCasino members must use a GitHub noreply address. Authors, committers, annotated tags, and attribution trailers are checked separately. Passing these checks does not grant repository access or replace maintainer review. See the [publication identity policy](https://github.com/SugarCasino/.github/blob/main/docs/git-publication-privacy.md).
+For `SugarCasino/.github`, authors, committers, annotated taggers, and attribution trailers must use an exact approved name and GitHub noreply email pair from `.github/publication-identities.json`. Unlisted identities are rejected, including external contributors. Approved GitHub automation identities remain allowed. Passing these checks does not grant repository access or replace maintainer review. See the [publication identity policy](https://github.com/SugarCasino/.github/blob/main/docs/git-publication-privacy.md).
 
 ## :memo: Writing Commit Messages
 
@@ -155,12 +155,6 @@ By making a contribution to this project, I certify that:
 > 1. The contribution is based upon previous work that, to the best of my knowledge, is covered under an appropriate open source license and I have the right under that license to submit that work with modifications, whether created in whole or in part by me, under the same open source license (unless I am permitted to submit under a different license), as indicated in the file; or
 > 1. The contribution was provided directly to me by some other person who certified (1), (2) or (3) and I have not modified it.
 > 1. I understand and agree that this project and the contribution are public and that a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved.
-
-## [No Brown M&M's](https://en.wikipedia.org/wiki/Van_Halen#Contract_riders)
-
-If you are reading this, bravo dear user and (hopefully) contributor for making it this far! You are awesome. :100:
-
-To confirm that you have read this guide and are following it as best as possible, **include this emoji at the top** of your issue or pull request: :black_heart: `:black_heart:`
 
 ## :pray: Credits
 

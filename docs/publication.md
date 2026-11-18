@@ -18,4 +18,6 @@ Skill metadata versions are separate from package versions. Do not advertise uni
 
 ## Public contributions
 
-All three repositories allow external contributions. Recognized SugarCasino members must use GitHub noreply addresses; external contributors may retain their own names and emails. The publication check uses read-only repository access and does not grant merge approval, write access, or publishing rights. See [the identity policy](git-publication-privacy.md).
+`SugarCasino/.github` reserves pushes and pull requests for organization members and approved GitHub automation. Its publication check requires exact approved Git identity pairs; external identities are rejected. See [the identity policy](git-publication-privacy.md).
+
+`ts-sdks` and `agent-skills` retain their own contribution policies, allowing external contributors to use their own Git names and emails while requiring recognized members to use GitHub noreply addresses. Publication checks do not grant merge approval, write access, or publishing rights.
