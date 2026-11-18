@@ -80,6 +80,10 @@ Repository access is managed by the maintainers. Having a pull request merged do
 - When writing comments, use properly constructed sentences, including punctuation.
 - Use spaces, not tabs.
 
+## Publication identities
+
+External contributors may use their own Git name and email. SugarCasino members must use a GitHub noreply address. Authors, committers, annotated tags, and attribution trailers are checked separately. Passing these checks does not grant repository access or replace maintainer review. See the [publication identity policy](https://github.com/SugarCasino/.github/blob/main/docs/git-publication-privacy.md).
+
 ## :memo: Writing Commit Messages
 
 Please [write a great commit message](https://cbea.ms/git-commit/).
