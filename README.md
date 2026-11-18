@@ -1,3 +1,5 @@
 # .github
 
-*Default [community health files](https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file) for Sugar projects*
+*Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for Sugar projects*
+
+See [public release coordination](docs/publication.md) for how the SDK packages, agent skills, and organization profile are kept aligned.

@@ -1,5 +1,7 @@
 # Publication privacy
 
+Pushes and pull requests to `SugarCasino/.github` are reserved for organization members. The public repository is available for reading; external code contributions are not accepted. Approved GitHub automation identities remain allowed. This policy is specific to `.github`; other repositories define their own contribution rules.
+
 Only the exact public name/contact pairs in `.github/publication-identities.json` may be used for new authors, committers, annotated taggers and attribution trailers. Personal contacts and civil names are kept out of this policy and public diagnostics. Any additional contributor identity requires owner approval; never add an exemption to admit a private identity.
 
 Use the Node version from `.node-version`, then install the local hooks with `git config --local core.hooksPath .githooks`. The hooks check the effective identity, commit messages and every incoming commit in a push, including an older unsafe commit followed by a clean latest commit. Existing hooks remain in place. Refresh remote refs before pushing a new branch.
@@ -14,3 +16,5 @@ Tests use synthetic identities and local Git fixtures only:
 node --test scripts/validate-git-identities.test.mjs scripts/fetch-git-event-objects.test.mjs
 node scripts/validate-git-identities.mjs --config
 ```
+
+The identity guard validates Git metadata; it does not authenticate organization membership or prevent someone from opening a PR on GitHub. Repository permissions and required reviews are managed separately in GitHub.
